@@ -1,2 +1,1 @@
-# cssMemSlider
-task RSSchool
+https://tashasun.github.io/cssMemSlider/cssMemSlider/index.html
