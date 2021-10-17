@@ -44,6 +44,7 @@ img {
 }
 .text p{
   grid-area: text;
+  padding-right: 1vw;
 }
 .carousel {
   display: grid;
@@ -141,7 +142,7 @@ input {
 .dot {
   width: 4vw;
   height: 4vw;
-  border: solid #999999;
+  /* border: solid #999999; */
   background-image: url(assets/choose_ellipse\ .svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -182,7 +183,6 @@ input {
 
 p {
   margin: 0;
-  line-height: 3vw;
   color: #999999;
   font-size: 3vh;
 }
@@ -283,5 +283,8 @@ p:hover {
   .slide-5 {
     align-self: center;
     justify-self: center;
+  }
+  p{
+    font-size: 5vw;
   }
 }
